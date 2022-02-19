@@ -1,0 +1,26 @@
+      /* unvisited link */
+      a:link {
+        color: tomato;
+    }
+
+    /* visited link
+    a:visited {
+        color: tomato;
+    }
+
+    /* mouse over element */
+    div:hover {
+        color: rgb(41, 10, 126);
+    } 
+#resume{
+    background-image: url('https://img-19.ccm2.net/WNCe54PoGxObY8PCXUxMGQ0Gwss=/480x270/smart/d8c10e7fd21a485c909a5b4c5d99e611/ccmcms-commentcamarche/20456790.jpg');   
+
+}
+    /* selected link */
+    a:active{
+        color: #0000FF
+    } */
+    table>td::first-line{
+        background-color: yellow;     
+        background-image: url('https://img-19.ccm2.net/WNCe54PoGxObY8PCXUxMGQ0Gwss=/480x270/smart/d8c10e7fd21a485c909a5b4c5d99e611/ccmcms-commentcamarche/20456790.jpg');   
+    }
