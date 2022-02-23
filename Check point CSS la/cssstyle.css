@@ -28,7 +28,14 @@ ul li {
   justify-content: center;
 }
 .bloc_one {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.title {
+  justify-content: center;
+  justify-items: center;
 }
 .text {
   display: flex;
