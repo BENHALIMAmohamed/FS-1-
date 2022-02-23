@@ -1,0 +1,35 @@
+/* .flex {
+  display: flex;
+} */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Drop_element {
+  display: none;
+  justify-content: end;
+}
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.drop_menu:hover + .Drop_element {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.Drop_element:hover {
+  display: block;
+}
+.logo_centre {
+  display: flex;
+  justify-content: center;
+}
+.bloc_one {
+  justify-content: center;
+}
+.text {
+  display: flex;
+}
