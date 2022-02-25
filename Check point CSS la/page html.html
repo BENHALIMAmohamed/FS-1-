@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS CP</title>
     <link rel="stylesheet" href="cssstyle.css" />
+    <script src="https://use.fontawesome.com/ed61987e4c.js"></script>
   </head>
   <body>
     <header>
@@ -19,16 +20,17 @@
         /></a>
 
         <ul class="liste_Navbar">
-          <li href="About us">Abouts us</li>
+          <li id="About_us" href="About us">Abouts us</li>
           <li href="Career">Career</li>
           <li class="drop_menu" href="Departments">Departments</li>
           <ul class="Drop_element">
-            <li><a href="Marketing">Marketing</a> <br /></li>
-            <li><a href="Customer">Customer</a> <br /></li>
-            <li><a href="IT">IT</a></li>
-            <br />
-            <li><a href="Finance">Finance</a></li>
-            <br />
+            <li class="departments_items">
+              <a href="Marketing">Marketing</a> >
+            </li>
+            <li class="departments_items"><a href="Customer">Customer</a></li>
+            <li class="departments_items"><a href="IT">IT</a></li>
+
+            <li class="departments_items"><a href="Finance">Finance</a></li>
           </ul>
         </ul>
       </nav>
@@ -58,6 +60,65 @@
           are able not only to improve their online presence, but also to devote
           their time to what really matters: their patients.
         </p>
+      </div>
+    </div>
+    <div class="bloc_tow">
+      <!-- first part -->
+      <div class="card" style="background-color: #21b39b">
+        <i class="fa-solid fa-users"></i><br />
+        <h1>For patients</h1>
+        <br />
+        <div>
+          <p>Find a doctor, book a visit and solve any health-related doubt</p>
+        </div>
+
+        <select>
+          <option value="not">Choose country</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="France">France</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+      <!-- end first part -->
+      <!-- second part   -->
+      <div class="card" style="background-color: #5190e2">
+        <i class="fa-solid fa-user-nurse"></i><br />
+        <h1>For doctors</h1>
+        <br />
+        <p>Save time managing visits and cut no-shows by half</p>
+
+        <select>
+          <option value="not">Choose country</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="France">France</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+      <!-- end second part -->
+      <!-- third part -->
+      <div class="card" style="background-color: #1b2734">
+        <i class="fa-solid fa-circle-h"></i><br />
+        <h1>For Clinics</h1>
+        <br />
+
+        <p>Deliver an exceptional patient experience in your clinic</p>
+
+        <select>
+          <option value="not">2 to 20 specialists</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="France">France</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
+        <select>
+          <option value="not">More than 20 specialists</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="France">France</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+        </select>
       </div>
     </div>
   </body>

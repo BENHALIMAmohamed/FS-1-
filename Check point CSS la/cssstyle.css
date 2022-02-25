@@ -1,14 +1,35 @@
-/* .flex {
-  display: flex;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+header {
+  position: sticky;
+  /* margin-top: 0; */
+  top: 0;
+  background-color: white;
+}
 .Navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: Roboto, Times, serif;
+  font-size: 15px;
 }
+#About_us {
+  color: #21b39b;
+}
+
+.liste_Navbar:hover {
+  color: #21b39b;
+}
+
 .Drop_element {
   display: none;
-  justify-content: end;
+  list-style: none;
+  position: absolute;
+  margin-left: 120px;
+  /* justify-content: end;
+
+  justify-items: end; */
 }
 ul li {
   display: inline-block;
@@ -23,20 +44,56 @@ ul li {
 .Drop_element:hover {
   display: block;
 }
+.departments_items:hover {
+  color: #21b39b;
+}
 .logo_centre {
   display: flex;
   justify-content: center;
 }
 .bloc_one {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .title {
   justify-content: center;
   justify-items: center;
 }
 .text {
+  margin: 30px;
   display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+  /* flex-wrap: wrap; */
+}
+/* div + p {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  flex-wrap: wrap;
+} */
+.bloc_tow {
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 50vh;
 }
