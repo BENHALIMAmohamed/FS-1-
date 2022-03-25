@@ -24,7 +24,7 @@ END
 // -------------------------------------------------------------------------------------------------------------------------
 
 / function
-FUNCTION  dot_product() : INTEGER
+FUNCTION  dot_product(v1,v 2) : INTEGER
 VAR
     i,n,Ps : INTERGER
     v1 : array_of INTERGER [3];
@@ -42,7 +42,7 @@ v2 : array_of INTERGER [3];
 n : INTERGER;
 Ps := 0 : INTERGER;
 BEGIN
-  dot_product(n,v1,v2,Ps)
+  dot_product(v1,v2)
    IF (Ps:=0) THEN
        write ('The two vectors are orthogona')
    ELSE
