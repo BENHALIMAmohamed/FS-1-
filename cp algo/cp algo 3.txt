@@ -20,3 +20,32 @@ BEGIN
        write('The two vectors are orthogona')
    END_IF
 END
+
+// -------------------------------------------------------------------------------------------------------------------------
+
+/ function
+FUNCTION  dot_product() : INTEGER
+VAR
+    i,n,Ps : INTERGER
+    v1 : array_of INTERGER [3];
+    v2 : array_of INTERGER [3];
+BEGIN
+    FOR i FROM 0 TO n-1 STEP 1  DO
+        Ps := Ps + v1[i]*v2[i]
+    END_FOR
+    RETURN Ps;
+END
+// algo function
+VAR
+v1 : array_of INTERGER [3];
+v2 : array_of INTERGER [3];
+n : INTERGER;
+Ps := 0 : INTERGER;
+BEGIN
+  dot_product(n,v1,v2,Ps)
+   IF (Ps:=0) THEN
+       write ('The two vectors are orthogona')
+   ELSE
+       write('The two vectors are  not orthogona')
+   END_IF
+END
