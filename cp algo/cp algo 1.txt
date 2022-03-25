@@ -1,0 +1,24 @@
+ALGORITHM
+VAR
+    CharCount: INTEGER := 0;
+    SpaceCount: INTEGER := 0;
+    WordCount: INTEGER := 0;
+    VowelCount:INTEGER := 0;
+    i : INTEGER ;
+    Sentence : STRING;
+BEGIN
+    //count lenght of Sentence
+    FOR i FROM 0 TO Sentence.length-1
+         CharCount = CharCount + 1;
+         //count space
+         IF ( Sentence[i]=' ',",",".","?","!")
+         THEN    SpaceCount := SpaceCount+1;
+         //count word
+         WordCount := CharCount-SpaceCount;
+         END_IF
+         //count vowel
+         IF (Sentence[i]=["A","a","E","e","I","i","O","o","U","u","Y","y"])
+         THEN    VowelCount := VowelCount+1;
+         END_IF
+    END_FOR
+END
